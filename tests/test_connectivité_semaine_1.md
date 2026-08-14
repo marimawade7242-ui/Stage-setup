@@ -8,17 +8,17 @@ le firewall pfSense peut accéder à Internet.
 ## Machines utilisées
 
 - Firewall : pfSense
-- Client LAN : cli-lan (`192.168.1.30`)
-- Serveur Web DMZ : srv-web (`192.168.2.10`)
+- Client LAN : (`192.168.1.30`)
+- Server Web DMZ : (`192.168.2.10`)
 
 ## Résultats
 
 | Source | Destination | Commande | Résultat | Observation |
 |---|---|---|---|---|
 | pfSense | Internet | `ping 8.8.8.8` | Réussi | Le WAN fonctionne |
-| pfSense | Serveur Web | `ping 192.168.2.10` | Réussi | La DMZ fonctionne |
+| pfSense | Server Web | `ping 192.168.2.10` | Réussi | La DMZ fonctionne |
 | Client LAN | pfSense LAN | `ping 192.168.1.1` | Réussi | Le LAN fonctionne |
-| Serveur Web | Internet | `ping 8.8.8.8` | À corriger | NAT/règles firewall à configurer en semaine 2 |
+| Server Web | Internet | `ping 8.8.8.8` | À corriger | NAT/règles firewall à configurer en semaine 2 |
 
 ## Conclusion
 
