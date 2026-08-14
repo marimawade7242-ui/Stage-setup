@@ -35,4 +35,4 @@ d’anomalies.
 - [x] Semaine 1 : architecture et laboratoire virtuel
 - [ ] Semaine 2 : sécurisation, règles firewall et VPN
 - [ ] Semaine 3 : supervision et alertes
-- [ ] Semaine 4 : automatisation et détection d’anomalies# Stage-setup
+- [ ] Semaine 4 : automatisation et détection d’anomalies
