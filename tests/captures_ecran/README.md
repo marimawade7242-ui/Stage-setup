@@ -8,7 +8,6 @@ Ce dossier contient les preuves visuelles de la mise en place et des tests du la
 - `pfsense_interfaces.png` : configuration des interfaces sur pfSense.
 - `pfsense_gateways.png` : configuration des passerelles sur pfSense.
 - `ubuntu_serveur_web_ip.png` : configuration IP du serveur Web Ubuntu.
-- `ubuntu_serveur_supervision_ip.png` : configuration IP du serveur de supervision.
 - `test_ping_lan_vers_pfsense.png` : test de ping entre un client LAN et pfSense.
 - `test_ping_lan_vers_dmz.png` : test de ping entre LAN et DMZ.
 - `test_ping_vers_internet.png` : test de connectivité vers Internet (NAT).
