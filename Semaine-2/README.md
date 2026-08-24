@@ -141,11 +141,11 @@ Résultat : la page d'accueil nginx s'affiche correctement.
 
 Les captures disponibles sont :
 
-- [Handshake WireGuard](captures/handshake-wireguard.png)
-- [Ping vers pfSense](captures/ping-pfsense.png)
-- [Accès au serveur DMZ](captures/acces-serveur-dmz.png)
-- [Règle pare-feu DMZ](captures/regle-pare-feu-dmz.png)
-- [Page nginx](captures/page-nginx.png)
+- Handshake WireGuard : `captures/handshake-wireguard.png`
+- Ping vers pfSense : `captures/ping-pfsense.png`
+- Accès au serveur DMZ : `captures/acces-serveur-dmz.png`
+- Règle pare-feu DMZ : `captures/regle-pare-feu-dmz.png`
+- Page nginx : `captures/page-nginx.png`
 
 ## Difficultés rencontrées
 
@@ -177,12 +177,12 @@ Les objectifs de la semaine 2 ont été atteints :
 
 ## Documentation
 
-- [Compte rendu complet](compte-rendu/compte-rendu-semaine-2.md)
-- [Architecture réseau](documentation/architecture-reseau.md)
-- [Configuration pfSense](documentation/configuration-pfsense.md)
-- [Configuration WireGuard](documentation/configuration-wireguard.md)
-- [Tests réalisés](documentation/tests-realises.md)
-- [Commandes utilisées](documentation/commandes-utilisees.md)
+- Compte rendu complet : `compte-rendu/compte-rendu-semaine-2.md`
+- Architecture réseau : `documentation/architecture-reseau.md`
+- Configuration pfSense : `documentation/configuration-pfsense.md`
+- Configuration WireGuard : `documentation/configuration-wireguard.md`
+- Tests réalisés : `documentation/tests-realises.md`
+- Commandes utilisées : `documentation/commandes-utilisees.md`
 
 ## Sécurité
 
