@@ -1,1 +1,17 @@
+# Fichiers WireGuard sensibles
+wg0.conf
+*.key
+*.pem
+*.secret
 
+# Variables et mots de passe
+.env
+.env.*
+
+# Sauvegardes
+*.bak
+*.old
+
+# Fichiers système
+.DS_Store
+Thumbs.db
