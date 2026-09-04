@@ -1,1 +1,29 @@
+groups:
+  - name: senai_alerts
+    rules:
+      - alert: HighCPUUsage
+        expr: 100 - (avg by(instance) (rate(node_cpu{mode="idle"}[5m])) * 100) > 80
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Utilisation CPU élevée"
+          description: "L'utilisation CPU dépasse 80% depuis 5 minutes sur {{ $labels.instance }}."
 
+      - alert: NodeDown
+        expr: up{job="node"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Machine node_exporter indisponible"
+          description: "La machine {{ $labels.instance }} ne répond plus (node_exporter down) depuis plus d'une minute."
+
+      - alert: HighMemoryUsage
+        expr: (1 - (node_memory_MemAvailable / node_memory_MemTotal)) * 100 > 85
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Utilisation mémoire élevée"
+          description: "L'utilisation mémoire dépasse 85% depuis 5 minutes sur {{ $labels.instance }}."
