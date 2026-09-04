@@ -1,7 +1,6 @@
-
 # Semaine 3 – Supervision avec Prometheus et Grafana
 
-## Objectifs
+##  Objectifs
 
 - Mettre en place une solution de supervision avec Prometheus et Grafana
 - Superviser deux machines (LAN et DMZ) derrière un pfSense
@@ -42,7 +41,7 @@ text
 4. Importer `grafana/dashboard.json` dans Grafana
 5. Vérifier les targets dans Prometheus : `http://192.168.1.10:9090/targets`
 
-##  Règles pfSense
+## 🔧 Règles pfSense
 
 - **LAN → DMZ** :
   - TCP 9100 (node_exporter)
