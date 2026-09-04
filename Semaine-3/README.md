@@ -1,13 +1,13 @@
 
 # Semaine 3 – Supervision avec Prometheus et Grafana
 
-## 🎯 Objectifs
+## Objectifs
 
 - Mettre en place une solution de supervision avec Prometheus et Grafana
 - Superviser deux machines (LAN et DMZ) derrière un pfSense
 - Configurer des alertes (CPU, mémoire, node down)
 
-## 🏗️ Architecture
+##  Architecture
 Internet
 |
 pfSense
@@ -24,7 +24,7 @@ pfSense
 
 text
 
-## 📋 Contenu du dépôt
+##  Contenu du dépôt
 
 | Fichier | Description |
 |---------|-------------|
@@ -34,7 +34,7 @@ text
 | `docs/architecture.md` | Schéma et explications de l'architecture |
 | `docs/rapport-semaine3.md` | Rapport détaillé de la semaine 3 |
 
-## 🚀 Installation rapide
+##  Installation rapide
 
 1. Installer Prometheus, node_exporter, Grafana
 2. Copier `prometheus.yml` et `alerts.yml` dans `/etc/prometheus/`
@@ -42,7 +42,7 @@ text
 4. Importer `grafana/dashboard.json` dans Grafana
 5. Vérifier les targets dans Prometheus : `http://192.168.1.10:9090/targets`
 
-## 🔧 Règles pfSense
+##  Règles pfSense
 
 - **LAN → DMZ** :
   - TCP 9100 (node_exporter)
