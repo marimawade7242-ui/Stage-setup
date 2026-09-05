@@ -1,6 +1,5 @@
 # Rapport de Tests - Semaine 4
 
-## Date : 05 Septembre 2026
 
 ## Tests Effectués
 
